@@ -46,7 +46,7 @@ if(confirm("<?php /* FRED-20170802  */ _e('Are you sure you want to hide the sel
 
 #Line 1904:
 ``` <html>
-<p class="center-text"><?php echo _e('%s files were found. Choose to display the images or just the file names?', 'maxgalleria-media-library' ), $row_count; ?></p>
+<p class="center-text"><?php echo (_e('%s files were found. Choose to display the images or just the file names?', 'maxgalleria-media-library' ), $row_count); ?></p>
 ``` 
 #Line 1906:
 ``` <html>
