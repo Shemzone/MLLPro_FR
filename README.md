@@ -104,7 +104,7 @@ alert("<?php _e('Nothing was selected. Check the images you want to include in a
 ```
 
 #maxgalleria+media-library.css
-#Here you cannot put content with meaning in CSS. 1 - because you cannot translate it 2 - because of people with disabilities using voice readers cannot vocalize it. You should find another way.
+#Here you cannot put content with meaning in CSS. 1 - because you cannot translate it 2 - because of people with disabilities using voice readers cannot vocalize it. You should find another way, maybe by using 2 spans with a Javascript toggle adding or removing a css class to throw the unnecessary element away (for example: .hiddenElement {display: inline-block;height: 0;left: -3000px;position: absolute;top: -2000px;width: 0;}. Just an idea)
 ``` <css>
 .onoffswitch-inner:before {
 	content: "Déplacer";
