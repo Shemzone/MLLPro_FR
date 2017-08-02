@@ -102,3 +102,23 @@ alert("<?php _e('Nothing was selected. Check the images you want to include in a
 ```<html>
 <label id="mlp_tb_size_label"><?php _e('Size', 'maxgalleria-media-library' ) ?></label>
 ```
+
+#maxgalleria+media-library.css
+#Here you cannot put content with meaning in CSS. 1 - because you cannot translate it 2 - because of people with disabilities using voice readers cannot vocalize it. You should find another way.
+``` <css>
+.onoffswitch-inner:before {
+	content: "Déplacer";
+	padding-left: 10px;
+	background-color: #FFFFFF;
+	color: #2EA2CC;
+}
+.onoffswitch-inner:after {
+	content: "Copier";
+	font-family: "Open Sans",sans-serif;
+	font-size: 12px;
+	padding-right: 10px;
+	background-color: #FFFFFF;
+	color: #2EA2CC;
+	text-align: right;
+}
+``` 
