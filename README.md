@@ -1,6 +1,6 @@
-# MLLPro_FR
-# maxgalleria-media-library.php
-``` <php> <?php _e('Texte langue par défaut', 'Référence du fichier de langue' ) ?>```
+MLLPro_FR
+#maxgalleria-media-library.php
+``` <?php _e('Texte langue par défaut', 'Référence du fichier de langue' ) ?>```
 
 #Line 528, 4729, 4930 (not better to use a variable as it's called several times?). Also in media_library.php Line 82 :
 ```<html>
