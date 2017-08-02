@@ -1,8 +1,8 @@
 # MLLPro_FR
 # maxgalleria-media-library.php
-``` <php> <?php _e('Texte langue par défaut', 'Référence du fihcier de langue' ) ?>```
+``` <php> <?php _e('Texte langue par défaut', 'Référence du fichier de langue' ) ?>```
 
-#Line 528, 4729, 4930 (not better to use a variable as it's called several times?):
+#Line 528, 4729, 4930 (not better to use a variable as it's called several times?). Also in media_library.php Line 82 :
 ```<html>
 <div id="new-top-promo">
   <a id="mf-top-logo" target="_blank" href="http://maxfoundry.com"><img alt="maxfoundry logo" src="<?php echo MAXGALLERIA_MEDIA_LIBRARY_PLUGIN_URL ?>/images/mf-logo.png" width="140" height="25" ></a>
@@ -93,3 +93,12 @@ printf(__('Unknown error with %s','maxgalleria-media-library'), $base_name);
 ``` 
 printf(__('Thumbnails have been regenerated for %s image(s)','maxgalleria-media-library'), $counter);
 ``` 
+#mlp-media-button.php
+#Line 423
+```
+alert("<?php _e('Nothing was selected. Check the images you want to include in a gallery and then click the Add button.','maxgalleria-media-library'); ?>");
+```
+#Line 491:
+```<html>
+<label id="mlp_tb_size_label"><?php _e('Size', 'maxgalleria-media-library' ) ?></label>
+```
